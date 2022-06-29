@@ -1,0 +1,14 @@
+// Desktop breakpoint responsive design
+@media (min-width: 769px) {
+    @include desktop-query;
+}
+
+// Tables breakpoint responsive design
+@media  (min-width: 440px) and (max-width: 680px) {
+    @include tablet-query;
+}
+
+// Mobile breakpoint responsive design
+@media (max-width: 439px) {
+    @include mobile-query;
+}
